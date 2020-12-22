@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :vans
       resources :van_images, only: [:show]
       resources :images, only: [:show]
+      resources :reviews
     end
   end
 end
